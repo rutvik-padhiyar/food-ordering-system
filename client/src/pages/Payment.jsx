@@ -21,7 +21,7 @@ export default function Payment() {
 
   const payNow = async () => {
     try {
-      const amount = 500; // Cart total
+      const amount = 500; 
 
       // 1️⃣ CREATE ORDER FROM BACKEND
       const res = await axios.post(
